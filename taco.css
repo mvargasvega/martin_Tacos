@@ -2,6 +2,15 @@
 /* id are used primarily only once */
 /* class is used multiple times */
 
+body{
+    height: 100%;
+    min-width: 1060px;
+    margin: 0;
+    color: #574c4f;
+    font: 16px/1.7 normal normal;
+    font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+}
+
 #burritoBackground{
     color: orange;
     background-color: purple;
@@ -17,4 +26,18 @@
 .menuBackground{
     color: orange;
     background-color: purple;
+}
+
+.top-bar{
+    text-align: left;
+    padding: 5px 0;
+    background-color: purple;
+    color: #efeae1;
+    font-size: 14px;
+    height: 43px;
+}
+
+.top-bar a{
+    color: #efeae1;
+    text-decoration: none;
 }

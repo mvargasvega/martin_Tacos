@@ -6,20 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin's Tacos</title>
     <link rel="stylesheet" href="taco.css">
+    <script>
+        const alexFunction = () =>{
+            console.log("wut it do");
+            prompt("Do you like tacos?")
+        }
+    </script>
 </head>
 <body>
+    <div class="top-bar">
+        <nav>
+            <a href="website.html">Home</a>
+            <a href="careers.html">Careers</a>
+            <a href="#">About Us</a>
+        </nav>
+    </div>
     <h1>Martin's Tacos</h1>
-    <nav>
-        <a href="website.html">Home</a>
-        <a href="careers.html">Careers</a>
-        <a href="#">About Us</a>
-    </nav>
     <h2>Menu</h2>
     <!-- Burrito Menu -->
     <div class="menuBackground">
         <h3>Burritos</h3>
         <ul>
-            <li>Regular Burrito <button>Add</button></li>
+            <li>Regular Burrito <button onclick="alexFunction()" >add</button></li>
             <li>Super Burrito <button>Add</button></li>
             <li class="veggieItem">Veggie Burrito <button>Add</button></li>
         </ul>
